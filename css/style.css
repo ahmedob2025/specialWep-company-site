@@ -962,7 +962,7 @@ section h1 {
     }
 
     .project-title {
-      font-size: 18px;
+      font-size: 14px;
       font-weight: 700;
       margin-top: 1rem;
       font-family: 'cairo';
@@ -989,3 +989,4 @@ section h1 {
     .project-link:hover {
       background-color: black;
     }
+
