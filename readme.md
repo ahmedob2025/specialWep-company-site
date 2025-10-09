@@ -17,7 +17,7 @@ Built using the latest technologies: *HTML5, **CSS3, and **JavaScript*, and opti
 The site provides a fast, elegant, and user-friendly experience.
 
 ### 🌐 Live Preview
-👉 [View Website](https://ahmadobedat.github.io/specialweb-company-site)
+👉 [View Website](https://ahmedob2025.github.io/specialWep-company-site/)
 
 ### 💡 Features
 - Modern, responsive, and elegant design  
@@ -41,7 +41,7 @@ The site provides a fast, elegant, and user-friendly experience.
 تم بناء الموقع باستخدام *HTML5* و*CSS3* و*JavaScript*، وهو متجاوب مع جميع الشاشات ويتميز بالسرعة والأناقة وسهولة الاستخدام.
 
 ### 🌐 معاينة مباشرة
-👉 [عرض الموقع](https://ahmadobedat.github.io/specialweb-company-site)
+👉 [عرض الموقع](https://ahmedob2025.github.io/specialWep-company-site/)
 
 ### 💡 المميزات
 - تصميم عصري ومتجاوب يناسب جميع الأجهزة  
@@ -76,4 +76,5 @@ This project is licensed under the *MIT License*.
   Developed by 💻 <strong>Ahmad Obedat</strong>  
   <br/>
   © 2025 SpecialWeb. All rights reserved.
+
 </p>
