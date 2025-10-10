@@ -253,7 +253,7 @@ header .container nav ul li a:hover {
 
 .index {
   color: var(--accent);
-  background-image: url("../images/images.jpeg");
+  background-image: url("../images/images-webp.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -281,6 +281,10 @@ header .container nav ul li a:hover {
   border-radius: 5px;
 }
 
+.hero .hero-img-mobile img{
+  display: none;
+}
+
 @media (max-width: 768px) {
   .hero .hero-img img {
     display: none;
@@ -288,41 +292,24 @@ header .container nav ul li a:hover {
     height: 350px;
   }
 
-  .hero .hero-info .container h1 {
-    font-size: 40px;
-  }
-
-  .hero .hero-info .container p {
-    font-size: 18px;
-  }
-  .hero .hero-info .container h5 {
-    font-size: 20px;
-  }
-  .hero .hero-info .container button {
-    padding: 8px;
-    border-radius: 8px;
-  }
-
-  .index .container h2 {
-    font-size: 30px;
-  }
-
-  .index .container p {
-    font-size: 18px;
-  }
-
-  .index .container ul li {
-    font-size: 16px;
+  .hero .hero-img-mobile img {
+    display: block;
+    width: 100%;
+    height: auto;
+    
   }
 
   .img img{
+    width: 100%;
+    height: auto;
     align-items: center;
     margin: 10px;
+    justify-content: space-between ;
   }
 }
 
 .hero h1 {
-  color: #ff6b35;
+  color: var(--max-color);
   align-items: center;
   text-align: center;
   margin: 20px;
@@ -348,8 +335,8 @@ header .container nav ul li a:hover {
 }
 
 .index ul li {
-  color: black;
-  padding-right: 50px;
+  color: rgba(0, 0, 0, 0.907);
+  padding-right: 15px;
   line-height: 1.8;
 }
 
@@ -361,7 +348,7 @@ header .container nav ul li a:hover {
 .hero h5 {
   color: #212529;
   font-weight: 700;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .hero .hero-info button {
@@ -409,7 +396,7 @@ header .container nav ul li a:hover {
 /* start servies  2 */
 
 .services {
-  background-image: url("../images/559716-abstract-4k-hd-wallpaper-pic-technology-data-pattern.jpg");
+  background-image: url("../images/backround-services.webp");
   margin-top: 10px;
 }
 
@@ -420,7 +407,7 @@ header .container nav ul li a:hover {
 }
 
 .services h1 {
-  background-image: url("../images/background_2.avif");
+  background-image: url("../images/background_2.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -479,7 +466,7 @@ header .container nav ul li a:hover {
   color: var(--max-color);
   font-size: 48px;
   font-weight: 900;
-  background-image: url(../images/background_2.avif);
+  background-image: url(../images/background_2.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -548,7 +535,7 @@ section {
 
 section h1 {
   color: var(--max-color);
-  background-image: url("../images/background_2.avif");
+  background-image: url("../images/background_2.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -890,7 +877,7 @@ section h1 {
 
   .works .section-title {
   color: var(--max-color);
-  background-image: url("../images/background_2.avif");
+  background-image: url("../images/background_2.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -962,12 +949,13 @@ section h1 {
     }
 
     .project-title {
-      font-size: 14px;
+      font-size: 16px;
       font-weight: 700;
       margin-top: 1rem;
       font-family: 'cairo';
       color: var(--max-color);
       height: 20px;
+      margin-bottom: 15px;
     }
 
     .project-desc {
@@ -990,8 +978,6 @@ section h1 {
       background-color: black;
     }
 
-
-
 @media(max-width:768px){
 h1 {
   font-size: 30px !important;
@@ -1012,6 +998,7 @@ h4 {
 
 h5 {
   font-size: 16px !important;
+  line-height: 1.5 !important;
 }
 p , a , li {
   font-size: 14px !important;
